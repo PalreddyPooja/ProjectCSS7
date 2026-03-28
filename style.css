@@ -1,0 +1,42 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    background-image: url(./assets/Screenshot\ \(12\).png);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+.scroll{
+    
+    transform: translateX(100%);
+    transition: all 1s linear 0s;
+    
+    
+}
+ .container:hover>.scroll{
+    transform: translateX(0px);
+}
+.text{
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    background-image: url(./assets/image.png);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+
+}
+.btn{
+    transform: translateX(100%);
+    transition: all 1s linear 0s;
+
+}
+.text:hover>.btn{
+    transform: translateX(0px);
+}
