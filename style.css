@@ -5,7 +5,7 @@
 }
 .container{
     width: 300px;
-    height: 300px;
+    /* height: 300px; */
     border: 2px solid black;
     background-image: url(./assets/Screenshot\ \(12\).png);
     background-size: cover;
@@ -16,16 +16,28 @@
     
     transform: translateX(100%);
     transition: all 1s linear 0s;
-
-    
-    
+    padding: 10px;
+}
+.p{
+    text-align: justify;
 }
  .container:hover>.scroll{
     transform: translateX(0px);
 }
+.button{
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: lightblue;
+   
+}
+.button:hover{
+    background-color: azure;
+    transform: scale(1.1);
+}
 .text{
     width: 300px;
-    height: 300px;
+    /* height: 300px; */
     border: 2px solid black;
     background-image: url(./assets/image.png);
     background-size: cover;
@@ -33,11 +45,26 @@
     overflow: hidden;
 
 }
-.btn{
+.page{
     transform: translateX(100%);
     transition: all 1s linear 0s;
+    padding: 10px;
 
 }
-.text:hover>.btn{
+.btn{
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: lavenderblush;
+   
+}
+.p1{
+    text-align: justify;
+}
+.text:hover>.page{
     transform: translateX(0px);
+}
+.btn:hover{
+    background-color: aqua;
+    transform: scale(1.1);
 }
